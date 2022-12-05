@@ -5,7 +5,6 @@ import { MdFavorite } from "react-icons/md"
 
 const Main = () => {
   const [weather, setWeather] = useState(null)
-  console.log(weather)
   const [city, setCity] = useState("search")
   const [cityCordSystem, setCityCordSystem] = useState(null)
 
